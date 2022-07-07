@@ -5,6 +5,7 @@
 - 💻 I work as a SWE Intern [@Adaptive](https://www.adaptivebiotech.com/)
   - prev ML & SWE Intern [@CACI](https://www.caci.com/)
 - 📚 I study Computer Science and Data Science [@Purdue](https://www.purdue.edu/)
+- 📍 Based in D.C
 
 
 <!--
