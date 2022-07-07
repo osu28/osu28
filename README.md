@@ -10,8 +10,9 @@
 [![](https://img.shields.io/badge/-linkedin-0073B1?style=flat-square)](http://linkedin.com/in/oscarsu28)
 [![](https://img.shields.io/badge/-email-B22222?style=flat-square)](mailto:oscarsu0428@gmail.com)
 
+<!--
 [![Oscar's GitHub stats](https://github-readme-stats.vercel.app/api?username=osu28&theme=react&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-
+-->
 
 <!--
 **osu28/osu28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
