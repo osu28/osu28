@@ -1,14 +1,16 @@
 ![Split Select](hill.jpg)
 ### Hi there, I'm Oscar!
 # Welcome to my Github! 👋
-- 🏋️ I'm currently building a gym booking app
+- 🏋️ I'm currently building a [gym booking app](https://github.com/osu28/gym_reservation)
 - 💻 I work as a SWE Intern [@Adaptive](https://www.adaptivebiotech.com/)
   - prev ML & SWE Intern [@CACI](https://www.caci.com/)
 - 📚 I study Computer Science and Data Science [@Purdue](https://www.purdue.edu/)
-- 📍 Based in D.C.
+- 📍 Based in the D.C. Area
 
 [![](https://img.shields.io/badge/-linkedin-0073B1?style=flat-square)](http://linkedin.com/in/oscarsu28)
 [![](https://img.shields.io/badge/-email-B22222?style=flat-square)](mailto:oscarsu0428@gmail.com)
+
+[![Oscar's GitHub stats](https://github-readme-stats.vercel.app/api?username=osu28&theme=react&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 
 
 <!--
