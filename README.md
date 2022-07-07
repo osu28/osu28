@@ -1,7 +1,7 @@
 ![Split Select](hill.jpg)
 ### Hi there, I'm Oscar!
 # Welcome to my Github! 👋
-- 🏋️ I'm currently workout on a gym booking app
+- 🏋️ I'm currently building a gym booking app
 - 💻 I work as a SWE Intern [@Adaptive](https://www.adaptivebiotech.com/)
   - prev ML & SWE Intern [@CACI](https://www.caci.com/)
 - 📚 I study Computer Science and Data Science [@Purdue](https://www.purdue.edu/)
