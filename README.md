@@ -5,7 +5,10 @@
 - 💻 I work as a SWE Intern [@Adaptive](https://www.adaptivebiotech.com/)
   - prev ML & SWE Intern [@CACI](https://www.caci.com/)
 - 📚 I study Computer Science and Data Science [@Purdue](https://www.purdue.edu/)
-- 📍 Based in D.C
+- 📍 Based in D.C.
+
+[![](https://img.shields.io/badge/-linkedin-0073B1?style=flat-square)](http://linkedin.com/in/oscarsu28)
+[![](https://img.shields.io/badge/-email-B22222?style=flat-square)](mailto:oscarsu0428@gmail.com)
 
 
 <!--
