@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.scss';
 
-
 function App() {
   return (
     <div className="App">
@@ -12,14 +11,6 @@ function App() {
             <p>Hello 👋</p>
             <p>My name is:</p>
             <h1>Oscar Su</h1>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
           </div>
         </div>
       </header>
