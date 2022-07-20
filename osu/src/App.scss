@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  line-height: 00%;
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 0, 0);
+  line-height: 80%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,4 +50,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* FROSTED GLASS */
+.container {
+  // box-shadow: 0 0 10rem 0 rgba(255, 255, 255, 0.945);
+  border-radius: 40px;
+  background-color: #ffffffd8;
+  /* background-color: rgba(255, 255, 255, 0.541); */
+  // backdrop-filter: blur(2px);
+  text-align: left;
+  width: 45%;
+  /* height:10%; */
+  min-height: 85vh;
+  /* top: 20px; */
+  
+}
+
+.profile {
+  margin: 50px 50px 50px 50px;
 }
