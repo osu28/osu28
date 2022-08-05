@@ -7,6 +7,8 @@ function App() {
     document.title = "Oscar"
   }, [])
   const [count, setCount] = useState(0);
+  var content;
+  
   return (
     <div className="App">
       <header className="App-header">
