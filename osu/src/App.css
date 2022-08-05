@@ -56,6 +56,17 @@ p {
   padding: 10px;
 }
 
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

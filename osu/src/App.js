@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     document.title = "Oscar"
   }, [])
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState("Education");
   const handleChange = (event) => {
     setValue(event.target.value);
   };
