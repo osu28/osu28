@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className = "container">
+        <div className = "container1">
           <div className = "profile">
             <p>Hello 👋</p>
             <p>My name is:</p>
@@ -47,6 +47,9 @@ function App() {
             {content}
           </div>
         </div>
+        <div className = "container2"></div>
+        <div className = "container3"></div>
+        <div className = "container4"></div>
       </header>
     </div>
   );
