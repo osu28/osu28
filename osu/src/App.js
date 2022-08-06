@@ -7,49 +7,22 @@ import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
+import { Navbar } from "./components/Navbar";
+import { Intro } from "./components/Intro";
 
 function App() {
   useEffect(() => {
     document.title = "Oscar"
   }, [])
-  const [value, setValue] = useState("Education");
-  const handleChange = (event) => {
-    setValue(event.target.value);
-  };
-  const sizes = [" Experience", " Projects", " Contact"];
-  var content;
-  if (value === "Education") {
-    content = <Education />
-  } else if (value === " Experience") {
-    content = <Experience />
-  } else if (value === " Projects") {
-    content = <Projects />
-  } else if (value === " Contact") {
-    content = <Contact />
-  }
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <div className = "container1">
-          <div className = "profile">
-            <p>Hello 👋</p>
-            <p>My name is:</p>
-            <h1>Oscar Su</h1>
-            <DropDownList
-              style={{
-                width: "300px",
-              }}
-              data={sizes}
-              defaultItem="Education"
-              value={value}
-              onChange={handleChange}
-            /> 
-            {content}
+        <Navbar />
+          <div className="content">
+            <Intro />
           </div>
-        </div>
-        <div className = "container2"></div>
-        <div className = "container3"></div>
-        <div className = "container4"></div>
       </header>
     </div>
   );
