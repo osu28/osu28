@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
     return (
-      <div>
+      <div className="about">
         <img src={require("../assets/purdue.webp")} className='purdue'></img>
         <div className="About">
           

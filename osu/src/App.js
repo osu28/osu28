@@ -28,7 +28,7 @@ function App() {
       <header className="App-header">
         <div className="Navbar">
               <div className="logo">
-                  <img src={require("./assets/logo.jpg")} className='fav'></img>
+                  <img src={require("./assets/logo.jpg")} onClick={() => setCount(0)} className='fav'></img>
               </div>
               <div className="buttons">
                   <button class="button-27" onClick={() => setCount(0)}>Home</button>
