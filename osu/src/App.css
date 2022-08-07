@@ -123,6 +123,7 @@ p {
   float: left;
   width: 45%;
   margin-right: 10px;
+  animation: moveToRight 0.4s ease-in-out;
 }
 
 .column_intro_right {
@@ -130,6 +131,7 @@ p {
   /* background-color: red; */
   width: 42%;
   margin-right: 20px;
+  animation: moveToLeft 0.4s ease-in-out;
 }
 
 .headshot {
@@ -143,19 +145,85 @@ p {
   width: auto\20; 
 }
 
-.purdue {
-  width: 100px;
-  height: 100px;
-  /* float: right; */
-  position: absolute;
-  right: 25vw;
-  top: 125px;
+@keyframes moveToRight {
+  0% {
+      transform: translateX(-510px);
+  }
+  100% {
+      transform: translateX(0px);
+  }
+}
+
+@keyframes moveToLeft {
+  0% {
+      transform: translateX(810px);
+  }
+  100% {
+      transform: translateX(0px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .purdue {
+    animation: moveToRight 0.4s ease-in-out, spin infinite 15s linear;
+    animation-delay: 0s, 0.4s;
+    width: 100px;
+    height: 100px;
+    /* float: right; */
+    position: absolute;
+    right: 25vw;
+    top: 125px;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .About {
   min-width: 20%;
   max-width: 65%;
   /* background-color: red; */
+  animation: moveToRight 0.4s ease-in-out;
+}
+
+.work_description {
+  float: left;
+  width: 37%;
+  animation: moveUp 0.4s ease-in-out
+  /* background-color: green; */
+}
+
+@keyframes moveUp {
+  0% {
+      transform: translateY(810px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+.work_history {
+  float: left;
+  width: 40%;
+  margin-top: 60px;
+  margin-left: 30px;
+  animation: moveDown 0.4s ease-in-out
+  /* background-color: red; */
+}
+
+@keyframes moveDown {
+  0% {
+      transform: translateY(-500px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

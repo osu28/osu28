@@ -2,10 +2,9 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 // import { DropdownList } from "./components/DropdownList";
 // import '@progress/kendo-theme-default/dist/all.css';
-import { Navbar } from "./components/Navbar";
 import { Intro } from "./components/Intro";
 import { About } from "./components/About"; 
-import { Experience } from "./components/Experience";
+import { Work } from "./components/Work";
 import { Projects } from "./components/Projects";
 
 function App() {
@@ -18,6 +17,10 @@ function App() {
     content = <Intro />
   } else if (pageNum === 1) {
     content = <About />
+  } else if (pageNum === 2) {
+    content = <Work />
+  } else if (pageNum === 3) {
+    content = <Projects />
   }
 
   return (
