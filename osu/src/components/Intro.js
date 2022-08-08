@@ -6,21 +6,21 @@ export const Intro = () => {
                     href="https://github.com/osu28"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><img src={require("../assets/github_icon.png")} className='github'></img>
+                    ><img src={require("../assets/github_icon.png")} className='github' alt="@osu28"></img>
                 </a>
     var linkedin = <a
                     className="App-link"
                     href="https://www.linkedin.com/in/oscarsu28/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><img src={require("../assets/linkedin_icon.png")} className='linkedin'></img>
+                    ><img src={require("../assets/linkedin_icon.png")} className='linkedin' alt="@oscarsu28"></img>
                 </a>
     var gmail = <a
                     className="App-link"
                     href="mailto:oscarsu0428@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><img src={require("../assets/gmail_icon.png")} className='gmail'></img>
+                    ><img src={require("../assets/gmail_icon.png")} className='gmail' alt="oscarsu0428@gmail.com"></img>
                 </a>
     
     return (
@@ -32,7 +32,7 @@ export const Intro = () => {
                 {github}{linkedin}{gmail}
             </div>
             <div className="column_intro_right">
-                <img src={require("../assets/headshot.png")} className='headshot'></img>
+                <img src={require("../assets/headshot.png")} className='headshot' alt="me :)"></img>
             </div>
         </div>
     );
