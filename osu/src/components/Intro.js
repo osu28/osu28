@@ -1,4 +1,6 @@
 import React from "react";
+import ReactAudioPlayer from 'react-audio-player';
+import astrothunder from '../assets/astrothunder.mp3';
 
 export const Intro = () => {
     var github = <a
@@ -26,10 +28,14 @@ export const Intro = () => {
     return (
         <div className="intro">
             <div className="column_intro_left">
-                <h2>Hi, I'm Oscar Su</h2>
+                <h1>Hi, I'm Oscar Su</h1>
                 <p>A young engineer looking to build something cool.</p>
                 <p>I have a strong record of implementing technical solutions to complex problems.</p>
                 {github}{linkedin}{gmail}
+                <br></br>
+                <br></br>
+                <p> My fav song: <ReactAudioPlayer src={astrothunder} controls/></p>
+                
             </div>
             <div className="column_intro_right">
                 <img src={require("../assets/headshot.png")} className='headshot' alt="me :)"></img>
