@@ -24,7 +24,10 @@ export const Intro = () => {
                     rel="noopener noreferrer"
                     ><img src={require("../assets/gmail_icon.png")} className='gmail' alt="oscarsu0428@gmail.com"></img>
                 </a>
-    
+    function changeBackgroundImage() {
+        document.body.style.backgroundImage = "../assets/triangle_paggern.jpg";
+        console.log("changed");
+      }
     return (
         <div className="intro">
             <div className="column_intro_left">
@@ -34,7 +37,10 @@ export const Intro = () => {
                 {github}{linkedin}{gmail}
                 <br></br>
                 <br></br>
-                <p> My fav song: <ReactAudioPlayer src={astrothunder} controls/></p>
+                {/* <p> My fav song:</p>
+                <ReactAudioPlayer 
+                    src={astrothunder} controls 
+                    onListen={changeBackgroundImage()}/> */}
                 
             </div>
             <div className="column_intro_right">
