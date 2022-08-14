@@ -1,6 +1,6 @@
 import React from "react";
-import ReactAudioPlayer from 'react-audio-player';
-import astrothunder from '../assets/astrothunder.mp3';
+// import ReactAudioPlayer from 'react-audio-player';
+// import astrothunder from '../assets/astrothunder.mp3';
 
 export const Intro = () => {
     var github = <a
@@ -24,15 +24,15 @@ export const Intro = () => {
                     rel="noopener noreferrer"
                     ><img src={require("../assets/gmail_icon.png")} className='gmail' alt="oscarsu0428@gmail.com"></img>
                 </a>
-    function changeBackgroundImage() {
-        document.body.style.backgroundImage = "../assets/triangle_paggern.jpg";
-        console.log("changed");
-      }
+    // function changeBackgroundImage() {
+    //     document.body.style.backgroundImage = "../assets/triangle_paggern.jpg";
+    //     console.log("changed");
+    //   }
     return (
         <div className="intro">
             <div className="column_intro_left">
                 <h1>Hi, I'm Oscar Su</h1>
-                <p>A young engineer looking to build something cool.</p>
+                <p>A young software engineer looking to build something cool.</p>
                 <p>I have a strong record of implementing technical solutions to complex problems.</p>
                 {github}{linkedin}{gmail}
                 <br></br>
