@@ -2,7 +2,8 @@
 ### Hi there, I'm Oscar!
 # Welcome to my Github! 👋
 - 🏋️ I'm currently building a [gym booking app](https://github.com/osu28/gym_reservation)
-- 💻 I work as a SWE Intern [@Adaptive](https://www.adaptivebiotech.com/)
+- 💻 I work as a SWE Intern 
+  - prev SWE Intern [@Adaptive](https://www.adaptivebiotech.com/)
   - prev ML & SWE Intern [@CACI](https://www.caci.com/)
 - 📚 I study Computer Science and Data Science [@Purdue](https://www.purdue.edu/)
 - 📍 Based in the D.C. Area
