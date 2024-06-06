@@ -11,7 +11,7 @@
 -->
 [![](https://img.shields.io/badge/-linkedin-0073B1?style=flat-square)](http://linkedin.com/in/oscarsu28)
 [![](https://img.shields.io/badge/-email-B22222?style=flat-square)](mailto:oscarsu0428@gmail.com)
-[![](https://img.shields.io/badge/-website-079C01?style=flat-square)](https://osu28-3769a.web.app)
+[![](https://img.shields.io/badge/-website-079C01?style=flat-square)](https://ausika.com)
 
 <!--
 <br></br>
