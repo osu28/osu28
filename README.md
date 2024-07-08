@@ -10,7 +10,7 @@
 - 👀 Open to summer 2023 internships -> [resume:)](oscar_su_resume.pdf)
 -->
 [![](https://img.shields.io/badge/-linkedin-0073B1?style=flat-square)](http://linkedin.com/in/oscarsu28)
-[![](https://img.shields.io/badge/-email-B22222?style=flat-square)](mailto:oscarsu0428@gmail.com)
+[![](https://img.shields.io/badge/-email-B22222?style=flat-square)](mailto:oscarsu@ausika.com)
 [![](https://img.shields.io/badge/-website-079C01?style=flat-square)](https://ausika.com)
 
 <!--
